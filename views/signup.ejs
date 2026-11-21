@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="auth-wrap">
+        <form class="auth-card" action="/signup" method="POST">
+            <h2>Sign up for free</h2>
+            <input type="text" placeholder="Full name" name="name" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <input type="password" placeholder="Enter password" minlength="6" name="password" required>
+            <button type="submit">Create account</button>
+            <p>Already have an account? <a href="/login">Sign in</a></p>
+        </form>
+
+    </div>
+    
+</body>
+</html>
